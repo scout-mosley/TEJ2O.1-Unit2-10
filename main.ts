@@ -12,7 +12,7 @@
     const strip = neopixel.create(DigitalPin.P0, 4, NeoPixelMode.RGB)
     strip.clear()
 
-    //show pixles depending on light level
+    //show pixles depending on light levels
 
     if (lightLevel <= 51) {
         strip.show()
